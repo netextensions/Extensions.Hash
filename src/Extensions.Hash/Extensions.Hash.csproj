@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>NetExtensions</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Title>NetExtensions Extensions.Hash</Title>
+    <Description>Extensions.Hash</Description>
+    <PackageProjectUrl>https://github.com/netextensions/Extensions.Hash</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/netextensions/Extensions.Hash</RepositoryUrl>
+    <PackageTags>Extensions.Hash, performance, unsecure, fast, .net core, based on ServiceStack</PackageTags>
+    <PackageId>NetExtensions.Extensions.Hash</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>netextensions.io</Authors>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.Text.Core" Version="5.8.0" />
+  </ItemGroup>
+</Project>
